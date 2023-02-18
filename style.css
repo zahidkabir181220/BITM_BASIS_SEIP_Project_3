@@ -1,0 +1,281 @@
+/* Start Framework */
+*{
+  margin: 0;  
+  padding: 0;
+  outline: 0;
+}
+
+p{
+    font-size: 15px;
+    font-weight: normal;
+    color: #888a8b;
+    line-height: 30px;
+}
+
+.container{
+    max-width: 940px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.text-center{
+text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #463b4f;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.bg-primary{
+    background-color: #7b77c9;
+}
+
+.bg-secondary{
+    background-color: #23232e;
+}
+
+.text-white{
+    color: #fff;
+}
+
+.text-black{
+    color: black;
+}
+
+.p_b{
+    padding-bottom: 30px;
+}
+
+.p_y{
+    padding:0 18px;
+}
+
+body{
+    background-image: url("images/bg.png");
+    background-repeat: no-repeat;
+}
+
+.m_t{
+    margin-top: 100px;
+}
+
+.i_wh{
+width: 30px;
+height: 30px;
+}
+/* End Framework */
+
+
+/* Header Start */
+.header{
+   padding: 80px 0px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: white;
+}
+
+.logo img{
+    width: 130px;
+    height: 130px;
+}
+
+.header h1{
+    margin-top: 80px;
+    margin-bottom: 60px;
+    font-size: 80px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.header p{
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 80px;
+}
+
+.header a span{
+    border: 2px solid #fff;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 50%;
+    color: white;
+}
+/* Header End */
+
+
+/* What-I-Do Start */
+.what-i-do{
+    padding-top: 125px;
+    padding-bottom: 80px;
+}
+
+.whatido_text h5{
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    text-transform: none;
+}
+
+.section-heading h2{
+    font-size: 80px;
+    margin-bottom: 60px;
+}
+
+.single-item h6{
+    margin-bottom: 6px;
+}
+
+.section-features{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.single-item{
+    width: 32%;
+}
+/* What-I-Do End */
+
+
+/*My Work Start*/
+.mywork{
+    padding-top: 125px;
+    padding-bottom: 80px;
+}
+
+.mywork .navbar{
+    margin-bottom: 30px;
+}
+
+.mywork .navbar a{
+    color: #fff;
+    margin: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.mywork .navbar a:hover{
+   border-bottom: 3px solid #7b77c9; 
+}
+
+.mywork_items{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: auto;
+}
+
+.mywork_item{
+    margin-bottom: 30px;
+    width: 32%;
+}
+
+.mywork_item h6{
+    font-size: 21px;
+    line-height: 36px;
+    font-weight: 400;
+    text-transform: none;
+    color: #fff;
+    margin-top: 12px;
+}
+
+.mywork_item p{
+    font-size: 14px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #818baa;
+}
+
+.mywork_btn button{
+    padding: 20px 40px;
+    margin-top: 60px;
+    background-color: #7b77c9;
+    border: 2px solid #7b77c9;
+    border-radius: 5px;
+    color: greenyellow;
+}
+
+.mywork_btn button:hover{
+    background-color: transparent;
+    cursor: pointer;
+}
+/*My Work End*/
+
+
+/*Photography Section Same as My Work Section*/
+
+
+/*Subscribe Start*/
+.subscribe{
+    padding: 150px 0;
+}
+
+.subscribe-box .fa-infinity{
+    font-size: 70px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.subscribe-box p{
+    padding: 40px 0;
+}
+
+form input{
+    width: 380px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.sbs{
+    width: 200px;
+    background-color: #7b77c9;
+    color: #fff;
+}
+/*Subscribe Start*/
+
+
+/*Footer Start*/
+.footer{
+    padding: 100px 0;
+}
+/*Footer Start*/
+
+
+/* Responsive Start */
+@media screen and (max-width:768px) {
+    .mywork_item{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .single-item{
+        width: 50%;
+        margin-bottom: 30px;
+    }  
+    .section-heading h2{
+        font-size: 60px;
+    }  
+}
+
+@media screen and (max-width:600px) {
+    .mywork_item{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .single-item{
+        width: 100%;
+        margin-bottom: 30px;
+    }  
+    .section-heading h2{
+        font-size: 40px;
+    } 
+}
+/* Responsive End */
